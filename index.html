@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Unsere Einladung</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+
+            font-family: Arial, sans-serif;
+            background: #f5f3ef;
+            color: #333;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 800px;
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 10px;
+            font-size: 2rem;
+            font-weight: 400;
+        }
+
+        p {
+            margin-bottom: 25px;
+            color: #666;
+        }
+
+        .card {
+            background: white;
+            padding: 15px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        }
+
+        .card img {
+            display: block;
+            width: 100%;
+            height: auto;
+            border-radius: 6px;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 14px 24px;
+
+            background: #333;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+
+            font-size: 1rem;
+        }
+
+        .button:hover {
+            background: #555;
+        }
+
+        .footer {
+            margin-top: 25px;
+            font-size: 0.85rem;
+            color: #888;
+        }
+    </style>
+</head>
+
+<body>
+
+    <main class="container">
+
+        <h1>Unsere Einladung</h1>
+
+        <p>Wir freuen uns, dich zu unserem besonderen Tag einzuladen.</p>
+
+        <div class="card">
+            <img src="einladung.jpg" alt="Einladung">
+        </div>
+
+        <a class="button" href="einladung.pdf" target="_blank">
+            Einladung als PDF öffnen
+        </a>
+
+        <div class="footer">
+            Wir freuen uns auf dich!
+        </div>
+
+    </main>
+
+</body>
+</html>
