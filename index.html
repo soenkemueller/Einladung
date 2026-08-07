@@ -13,69 +13,43 @@
 
         body {
             margin: 0;
+            padding: 20px;
             min-height: 100vh;
+
             display: flex;
             justify-content: center;
-            align-items: center;
-            padding: 20px;
+            align-items: flex-start;
 
-            font-family: Arial, sans-serif;
             background: #f5f3ef;
-            color: #333;
         }
 
         .container {
             width: 100%;
-            max-width: 800px;
+            max-width: 900px;
             text-align: center;
         }
 
-        h1 {
-            margin-bottom: 10px;
-            font-size: 2rem;
-            font-weight: 400;
-        }
-
-        p {
-            margin-bottom: 25px;
-            color: #666;
-        }
-
         .card {
+            display: inline-block;
+            max-width: 100%;
             background: white;
-            padding: 15px;
+            padding: 10px;
             border-radius: 12px;
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
         }
 
         .card img {
             display: block;
-            width: 100%;
+            max-width: 100%;
             height: auto;
             border-radius: 6px;
         }
 
-        .button {
-            display: inline-block;
-            margin-top: 25px;
-            padding: 14px 24px;
-
-            background: #333;
-            color: white;
-            text-decoration: none;
-            border-radius: 6px;
-
-            font-size: 1rem;
-        }
-
-        .button:hover {
-            background: #555;
-        }
-
-        .footer {
-            margin-top: 25px;
-            font-size: 0.85rem;
-            color: #888;
+        .hint {
+            margin-top: 15px;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            color: #777;
         }
     </style>
 </head>
@@ -84,19 +58,14 @@
 
     <main class="container">
 
-        <h1>Unsere Einladung</h1>
-
-        <p>Wir freuen uns, dich zu unserem besonderen Tag einzuladen.</p>
-
         <div class="card">
-            <img src="einladung.png" alt="Einladung">
+            <img
+                src="einladung.png"
+                alt="Einladung"
+            >
         </div>
 
-        <a class="button" href="einladung.pdf" target="_blank">
-            Einladung als PDF öffnen
-        </a>
-
-        <div class="footer">
+        <div class="hint">
             Wir freuen uns auf dich!
         </div>
 
